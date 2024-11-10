@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Orbitron, sans-serif;
+  text-decoration: none;
+}
+.container {
+  max-width: 1280px;
+  width: 90%;
+  padding-inline: 50px;
+  margin-inline: auto;
+}
+body {
+  background: #010209;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+#header {
+  padding-block: 40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  font-size: clamp(1rem, 0.875rem + 0.63vw, 1.375rem);
+  font-weight: 700;
+  color: #ffffff;
+}
+.header nav a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.burger-menu {
+  display: none;
+  justify-content: end;
+  color: hsl(192, 16%, 94%);
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+#girl {
+  padding-block: 90px;
+}
+.girl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.girl-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 612px;
+  width: 100%;
+}
+.girl-text h1 {
+  font-size: clamp(2rem, 1.729rem + 1.35vw, 2.813rem);
+  font-weight: 600;
+  max-width: 612px;
+  width: 100%;
+}
+.girl-text h1 span {
+  font-size: clamp(2rem, 1.729rem + 1.35vw, 2.813rem);
+  font-weight: 600;
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.girl-text p {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 420px;
+}
+.girl-box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12%;
+  position: relative;
+}
+.girl-btn button:first-child {
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  max-width: 250px;
+  max-height: 54px;
+  padding: 12px 14px 12px 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
+  font-weight: 500;
+}
+.girl-btn button:last-child {
+  background: none;
+  max-width: 250px;
+  max-height: 54px;
+  padding: 12px 14px 12px 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
+  font-weight: 500;
+  border: 2px solid #7113a4;
+}
+.girl-box h2 {
+  font-family: Orbitron;
+  font-size: clamp(1.125rem, 1rem + 0.63vw, 1.5rem);
+  font-weight: 500;
+}
+.girl-box h3 {
+  font-family: Orbitron;
+  font-size: clamp(1.125rem, 1rem + 0.63vw, 1.5rem);
+  font-weight: 500;
+}
+.girl-box h4 {
+  font-family: Orbitron;
+  font-size: clamp(1.125rem, 1rem + 0.63vw, 1.5rem);
+  font-weight: 500;
+}
+.girl-box span {
+  font-family: Poppins;
+  font-size: clamp(0.75rem, 0.625rem + 0.63vw, 1.125rem);
+  font-weight: 400;
+}
+.girl img {
+  position: relative;
+}
+.girl .img-1 {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+}
+.girl-img .img-2 {
+  /* position: absolute;
+  top: 21%;
+  left: 46%; */
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+}
